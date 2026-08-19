@@ -1,8 +1,10 @@
-#include <iosream>
+#include <iostream>
+#include "test.h"
+
 using namespace std;
 
 int main()
 {
-    std::cout<<"Test main.cpp in the camops_app" << std::endl;
+    TestFun(101, 201);
     return 0;
 }
