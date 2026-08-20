@@ -1,8 +1,10 @@
 #include <iostream>
+#include "test1.h"
+
 using namespace std;
 
 int main()
 {
-    std::cout << "Test the NPS_APP" << std::endl;
+    TestNps(300, 400);
     return 0;
 }
